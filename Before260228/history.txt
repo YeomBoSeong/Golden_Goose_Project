@@ -771,7 +771,7 @@
     Train loss       = 0.407321
     Valid loss       = 0.387264
     갭 비율           = 5.2% (과소적합 가능성)
-  저장: c:\ybs_projects\YBS_Quant_AI\LSTM\daily_cls_model.pkl
+  저장: <PROJECT_ROOT>\daily_cls_model.pkl
 
   평가 (실험 6 대비):
     정확도 84.59% (실험6: 67.32%, +17.27%). 베이스라인(84.47%) 대비 +0.12%.
@@ -1127,7 +1127,7 @@
 ────────────────────────────────────────────────────────────
  [실험 10 백테스트] 일별 모델 트레일링 스탑 전략 (포트폴리오 기준)
  날짜: 2026-02-19
- 모델: Model Storage/daily_cls_model_cross_entropy.pkl (실험 10)
+ 모델: <MODEL_DIR>/daily_cls_model_cross_entropy.pkl (실험 10)
  Threshold: 0.7
  수익률: 날짜별 균등분배 포트폴리오 기준
 ────────────────────────────────────────────────────────────
